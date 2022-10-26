@@ -35,7 +35,7 @@
   width: 1100px;
   height: 619px;
   overflow: hidden;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .swiper-slide video {
@@ -43,7 +43,7 @@
   width: 1100px;
   height: 619px;
   overflow: hidden;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .gallery-container {
@@ -75,7 +75,7 @@
 
 .custom-arrow-component {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 1em;
   width: 80%;

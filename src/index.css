@@ -39,7 +39,7 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: "Poppins", sans-serif !important;
-  background-color: rgb(255, 255, 255);
+  background: #00260E;
   user-select: none !important;
   -webkit-user-select: none;
   -khtml-user-select: none;

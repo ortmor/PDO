@@ -1,16 +1,12 @@
 import React from "react";
 import "../Styles/home.scss";
-import BgVideo from "../Media/Videos/02_bg.mp4";
+import BgVideo from "../Media/Videos/Amin.mp4";
 import Footer from "./Footer";
 
 function Amin() {
   return (
     <div className="home-container">
-      <div className="inner-carousel-heading">
-        <div className="inner-carousel-head">
-          <h1>Amin Independent Power Producer (IPP) Project</h1>
-        </div>
-      </div>
+    
 
       <div className="carousel-container">
         <div className="container-carousel">

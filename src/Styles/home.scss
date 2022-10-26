@@ -1,0 +1,25 @@
+.home-container {
+  min-width: 100%;
+  max-width: max-content;
+  min-height: 100vh;
+  max-height: max-content;
+  position: fixed;
+  overflow: hidden !important;
+
+  #Video {
+    min-width: 100%;
+    max-width: max-content;
+    min-height: 100vh;
+    max-height: max-content;
+    object-fit: cover;
+  }
+}
+
+.carousel-container {
+  display: flex;
+  position: relative;
+  min-width: 100%;
+  max-width: max-content;
+  min-height: 100vh;
+  max-height: max-content;
+}

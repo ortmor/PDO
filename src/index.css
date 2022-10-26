@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none !important;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  scroll-behavior: smooth;
+  -webkit-tab-highlight-color: transparent;
+  scroll-behavior: smooth;
+  -webkit-media-controls: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+*::-webkit-media-controls-panel {
+  display: none;
+}
+
+*::--webkit-media-controls-play-button {
+  display: none;
+}
+
+*::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+
+video::-webkit-media-controls {
+  display: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif !important;
+  background-color: rgb(255, 255, 255);
+  user-select: none !important;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+video::-webkit-media-controls {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
+  opacity: 90%;
+}
+
+html {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scrollbar-color: #000000 transparent;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html:hover {
+  scrollbar-color: #ffffff transparent;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::root {
+  scrollbar-width: 0px;
+  scrollbar-width: none;
+}
+
+.app {
+  user-select: none !important;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-tab-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 968px) {
+  * {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    scroll-behavior: smooth;
+    -webkit-tab-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scrollbar-color: #000000 transparent;
+  }
+
+  html:hover {
+    scrollbar-color: #ffffff transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  ::root {
+    scrollbar-width: 0px;
+    scrollbar-width: none;
+  }
+
+  .app {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tab-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    scroll-behavior: smooth;
+    -webkit-tab-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scrollbar-color: #000000 transparent;
+  }
+
+  html:hover {
+    scrollbar-color: #ffffff transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  ::root {
+    scrollbar-width: 0px;
+    scrollbar-width: none;
+  }
+
+  .app {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tab-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    scroll-behavior: smooth;
+    -webkit-tab-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scrollbar-color: #000000 transparent;
+  }
+
+  html:hover {
+    scrollbar-color: #ffffff transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  ::root {
+    scrollbar-width: 0px;
+    scrollbar-width: none;
+  }
+
+  .app {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tab-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  * {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    scroll-behavior: smooth;
+    -webkit-tab-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scrollbar-color: #000000 transparent;
+  }
+
+  html:hover {
+    scrollbar-color: #ffffff transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  ::root {
+    scrollbar-width: 0px;
+    scrollbar-width: none;
+  }
+
+  .app {
+    user-select: none !important;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tab-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+}

@@ -1,6 +1,5 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import Video from "../Media/Images/Gallery/Amin/aminvideo.mp4";
-import Card1 from "../Media/Images/Gallery/Amin/01.jpg";
 import Card2 from "../Media/Images/Gallery/Amin/02.jpg";
 import Card3 from "../Media/Images/Gallery/Amin/03.jpg";
 import Card4 from "../Media/Images/Gallery/Amin/04.jpg";
@@ -17,18 +16,9 @@ import Card13 from "../Media/Images/Gallery/Amin/13.jpg";
 import { EffectCreative, Autoplay, FreeMode, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
+import AminVideo from "./AminVideo";
 
 function GalleryAmin() {
-  const [toggleplay, settoggleplay] = useState();
-  const VidRef = useRef(null);
-
-  const Togglebutton = () => {
-    if (!toggleplay) {
-      settoggleplay(VidRef.current.play());
-    } else {
-      settoggleplay(VidRef.current.pause());
-    }
-  };
   return (
     <div className="swiper-main">
       <Swiper
@@ -43,6 +33,7 @@ function GalleryAmin() {
         }}
         initialSlide={1}
         speed={1500}
+        noSwipingClass="swiper-no-swiping"
         centeredSlides={true}
         creativeEffect={{
           prev: {
@@ -57,10 +48,10 @@ function GalleryAmin() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={Card1}></img>
+          <img src={Card2}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Card2}></img>
+          <AminVideo Videosrc={Video} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Card3}></img>
@@ -94,18 +85,6 @@ function GalleryAmin() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Card13}></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <video
-            controls={true}
-            width="100%"
-            src={Video}
-            onClick={Togglebutton}
-            ref={VidRef}
-            loop={true}
-            muted={true}
-            playsInline={true}
-          />
         </SwiperSlide>
       </Swiper>
       <div className="custom-arrow-component">

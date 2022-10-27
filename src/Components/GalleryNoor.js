@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import Video from "../Media/Images/Gallery/Amin/aminvideo.mp4";
-import Card1 from "../Media/Images/Gallery/Amin/01.jpg";
 import Card2 from "../Media/Images/Gallery/Amin/02.jpg";
 import Card3 from "../Media/Images/Gallery/Amin/03.jpg";
 import Card4 from "../Media/Images/Gallery/Amin/04.jpg";
@@ -55,9 +54,6 @@ function GalleryNoor() {
         loop={true}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src={Card1}></img>
-        </SwiperSlide>
         <SwiperSlide>
           <img src={Card2}></img>
         </SwiperSlide>

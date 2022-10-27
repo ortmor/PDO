@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React  from "react";
 import Video from "../Media/Images/Gallery/Nimr/nimrvideo.mp4";
 import Card1 from "../Media/Images/Gallery/Nimr/01.jpg";
 import Card2 from"../Media/Images/Gallery/Nimr/02.jpg";
@@ -9,6 +9,7 @@ import Card7 from "../Media/Images/Gallery/Nimr/07.jpg";
 import Card8 from "../Media/Images/Gallery/Nimr/08.jpg";
 import Card9 from "../Media/Images/Gallery/Nimr/09.jpg";
 import Card10 from "../Media/Images/Gallery/Nimr/10.jpg";
+import NimrVideo from "./NimrVideo";
 
 
 import { EffectCreative, Autoplay, FreeMode, Navigation } from "swiper";
@@ -16,20 +17,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 
 function GalleryNimr() {
-  const [toggleplay, settoggleplay] = useState();
-  const VidRef = useRef(null);
-
-  const Togglebutton = () => {
-    if (!toggleplay) {
-      settoggleplay(VidRef.current.play());
-    } else {
-      settoggleplay(VidRef.current.pause());
-    }
-  };
   return (
     <div className="swiper-main">
-    
-
       <Swiper
         effect={"creative"}
         autoplay={{
@@ -59,6 +48,9 @@ function GalleryNimr() {
           <img src={Card1}></img>
         </SwiperSlide>
         <SwiperSlide>
+          <NimrVideo Videosrc={Video} />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={Card2}></img>
         </SwiperSlide>
         <SwiperSlide>
@@ -82,18 +74,6 @@ function GalleryNimr() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Card10}></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <video
-            controls={true}
-            width="100%"
-            src={Video}
-            onClick={Togglebutton}
-            ref={VidRef}
-            loop={true}
-            muted={true}
-            playsInline={true}
-          />
         </SwiperSlide>
       </Swiper>
       <div className="custom-arrow-component">

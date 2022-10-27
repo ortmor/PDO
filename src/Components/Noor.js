@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/home.scss";
 import BgVideo from "../Media/Videos/02_bg.mp4";
-import Footer from "./Footer";
+import Footer from "./FooterG";
 
 function Noor() {
   return (
@@ -26,7 +26,7 @@ function Noor() {
           />
         </div>
       </div>
-      <Footer link="/gallerynoor" />
+      <Footer />
     </div>
   );
 }

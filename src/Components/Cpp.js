@@ -26,7 +26,7 @@ function Cpp() {
           />
         </div>
       </div>
-      <Footer />
+      <Footer link="/gallerycpp" />
     </div>
   );
 }

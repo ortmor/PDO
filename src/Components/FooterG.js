@@ -1,19 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Backbtn from "../Media/Images/Items/Back_bt.png";
 import Homebtn from "../Media/Images/Items/home_bt.png";
-import Gallerybtn from "../Media/Images/Items/gallery_bt.png";
 import { Link } from "react-router-dom";
 import "../Styles/footer.scss";
 
 function FooterG() {
+  const navigate = useNavigate();
   return (
     <footer className="btn-container-footer">
       <div className="btn-left-margin">
-        <Link to="/selection">
-          <button>
-            <img src={Backbtn} />
-          </button>
-        </Link>
+        <button onClick={() => navigate(-1)}>
+          <img src={Backbtn} />
+        </button>
         <Link to="/">
           <button>
             <img src={Homebtn} />

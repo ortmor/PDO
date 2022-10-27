@@ -1,12 +1,13 @@
 import React from "react";
 import "../Styles/gallery.scss";
 import BgVideo from "../Media/Videos/02_bg.mp4";
-import Gallery from "./Gallery";
 import Footer from "./FooterG";
-function GalleryMain() {
+import GalleryCpp from "./GalleryCpp";
+
+function GalleryCppMain() {
   return (
     <div className="gallery-container">
-      <Gallery />
+      <GalleryCpp />
       <video
         id="Video"
         controls={false}
@@ -22,4 +23,4 @@ function GalleryMain() {
   );
 }
 
-export default GalleryMain;
+export default GalleryCppMain;

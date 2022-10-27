@@ -26,7 +26,7 @@ function Noor() {
           />
         </div>
       </div>
-      <Footer />
+      <Footer link="/gallerynoor" />
     </div>
   );
 }

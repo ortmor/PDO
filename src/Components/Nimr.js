@@ -26,7 +26,7 @@ function Nimr() {
           />
         </div>
       </div>
-      <Footer />
+      <Footer link="/gallerynimr" />
     </div>
   );
 }

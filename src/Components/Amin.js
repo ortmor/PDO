@@ -6,8 +6,6 @@ import Footer from "./Footer";
 function Amin() {
   return (
     <div className="home-container">
-    
-
       <div className="carousel-container">
         <div className="container-carousel">
           <video
@@ -22,7 +20,7 @@ function Amin() {
           />
         </div>
       </div>
-      <Footer />
+      <Footer link="/galleryamin" />
     </div>
   );
 }

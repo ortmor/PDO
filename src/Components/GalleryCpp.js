@@ -13,13 +13,12 @@ import Card9 from "../Media/Images/Gallery/J.jpg";
 import Card10 from "../Media/Images/Gallery/K.jpg";
 import Card11 from "../Media/Images/Gallery/L.jpg";
 import Card12 from "../Media/Images/Gallery/M.jpg";
-import Card13 from "../Media/Images/Gallery/N.jpg";
 
 import { EffectCreative, Autoplay, FreeMode, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 
-function Gallery() {
+function GalleryCpp() {
   const [toggleplay, settoggleplay] = useState();
   const VidRef = useRef(null);
 
@@ -103,7 +102,7 @@ function Gallery() {
 
         <SwiperSlide>
           <video
-            controls={false}
+            controls={true}
             width="100%"
             src={Video}
             onClick={Togglebutton}
@@ -126,4 +125,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default GalleryCpp;

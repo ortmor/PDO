@@ -1,18 +1,18 @@
 import React, { useState, useRef } from "react";
-import Video from "../Media/Videos/video.mp4";
-import Card from "../Media/Images/Gallery/A.jpg";
-import Card1 from "../Media/Images/Gallery/B.jpg";
-import Card2 from "../Media/Images/Gallery/C.jpg";
-import Card3 from "../Media/Images/Gallery/D.jpg";
-import Card4 from "../Media/Images/Gallery/E.jpg";
-import Card5 from "../Media/Images/Gallery/F.jpg";
-import Card6 from "../Media/Images/Gallery/G.jpg";
-import Card7 from "../Media/Images/Gallery/H.jpg";
-import Card8 from "../Media/Images/Gallery/I.jpg";
-import Card9 from "../Media/Images/Gallery/J.jpg";
-import Card10 from "../Media/Images/Gallery/K.jpg";
-import Card11 from "../Media/Images/Gallery/L.jpg";
-import Card12 from "../Media/Images/Gallery/M.jpg";
+import Video from "../Media/Images/Gallery/Amin/aminvideo.mp4";
+import Card1 from "../Media/Images/Gallery/Amin/01.jpg";
+import Card2 from"../Media/Images/Gallery/Amin/02.jpg";
+import Card3 from "../Media/Images/Gallery/Amin/03.jpg";
+import Card4 from "../Media/Images/Gallery/Amin/04.jpg";
+import Card5 from "../Media/Images/Gallery/Amin/05.jpg";
+import Card6 from "../Media/Images/Gallery/Amin/06.jpg";
+import Card7 from "../Media/Images/Gallery/Amin/07.jpg";
+import Card8 from "../Media/Images/Gallery/Amin/08.jpg";
+import Card9 from "../Media/Images/Gallery/Amin/09.jpg";
+import Card10 from "../Media/Images/Gallery/Amin/10.jpg";
+import Card11 from "../Media/Images/Gallery/Amin/11.jpg";
+import Card12 from "../Media/Images/Gallery/Amin/12.jpg";
+import Card13 from "../Media/Images/Gallery/Amin/13.jpg";
 
 import { EffectCreative, Autoplay, FreeMode, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -61,9 +61,6 @@ function GalleryAmin() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={Card}></img>
-        </SwiperSlide>
-        <SwiperSlide>
           <img src={Card1}></img>
         </SwiperSlide>
         <SwiperSlide>
@@ -99,7 +96,9 @@ function GalleryAmin() {
         <SwiperSlide>
           <img src={Card12}></img>
         </SwiperSlide>
-
+        <SwiperSlide>
+          <img src={Card13}></img>
+        </SwiperSlide>
         <SwiperSlide>
           <video
             controls={true}

@@ -1,18 +1,16 @@
 import React, { useState, useRef } from "react";
-import Video from "../Media/Videos/video.mp4";
-import Card from "../Media/Images/Gallery/A.jpg";
-import Card1 from "../Media/Images/Gallery/B.jpg";
-import Card2 from "../Media/Images/Gallery/C.jpg";
-import Card3 from "../Media/Images/Gallery/D.jpg";
-import Card4 from "../Media/Images/Gallery/E.jpg";
-import Card5 from "../Media/Images/Gallery/F.jpg";
-import Card6 from "../Media/Images/Gallery/G.jpg";
-import Card7 from "../Media/Images/Gallery/H.jpg";
-import Card8 from "../Media/Images/Gallery/I.jpg";
-import Card9 from "../Media/Images/Gallery/J.jpg";
-import Card10 from "../Media/Images/Gallery/K.jpg";
-import Card11 from "../Media/Images/Gallery/L.jpg";
-import Card12 from "../Media/Images/Gallery/M.jpg";
+import Video from "../Media/Images/Gallery/Nimr/nimrvideo.mp4";
+import Card1 from "../Media/Images/Gallery/Nimr/01.jpg";
+import Card2 from"../Media/Images/Gallery/Nimr/02.jpg";
+import Card3 from "../Media/Images/Gallery/Nimr/03.jpg";
+import Card4 from "../Media/Images/Gallery/Nimr/04.jpg";
+import Card5 from "../Media/Images/Gallery/Nimr/05.jpg";
+import Card6 from "../Media/Images/Gallery/Nimr/06.jpg";
+import Card7 from "../Media/Images/Gallery/Nimr/07.jpg";
+import Card8 from "../Media/Images/Gallery/Nimr/08.jpg";
+import Card9 from "../Media/Images/Gallery/Nimr/09.jpg";
+import Card10 from "../Media/Images/Gallery/Nimr/10.jpg";
+
 
 import { EffectCreative, Autoplay, FreeMode, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -61,9 +59,6 @@ function GalleryNimr() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={Card}></img>
-        </SwiperSlide>
-        <SwiperSlide>
           <img src={Card1}></img>
         </SwiperSlide>
         <SwiperSlide>
@@ -93,13 +88,6 @@ function GalleryNimr() {
         <SwiperSlide>
           <img src={Card10}></img>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={Card11}></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Card12}></img>
-        </SwiperSlide>
-
         <SwiperSlide>
           <video
             controls={true}

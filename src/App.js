@@ -14,7 +14,7 @@ import Noor from "./Components/Noor";
 import { useIdleTimer } from "react-idle-timer";
 
 function App() {
-  const timeout = 240000;
+  const timeout = 180000;
   // const [remaining, setRemaining] = useState(timeout);
   // const [elapsed, setElapsed] = useState(0);
   // const [lastActive, setLastActive] = useState(+new Date());

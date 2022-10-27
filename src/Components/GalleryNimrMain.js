@@ -2,12 +2,12 @@ import React from "react";
 import "../Styles/gallery.scss";
 import BgVideo from "../Media/Videos/02_bg.mp4";
 import Footer from "./FooterG";
-import GalleryCpp from "./GalleryCpp";
+import GalleryNimr from "./GalleryNimr";
 
 function GalleryNimrMain() {
   return (
     <div className="gallery-container">
-      <GalleryCpp />
+      <GalleryNimr />
       <video
         id="Video"
         controls={false}

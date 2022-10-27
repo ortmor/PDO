@@ -3,7 +3,6 @@ import Video from "../Media/Images/Gallery/Nimr/nimrvideo.mp4";
 import Card1 from "../Media/Images/Gallery/Nimr/01.jpg";
 import Card2 from"../Media/Images/Gallery/Nimr/02.jpg";
 import Card3 from "../Media/Images/Gallery/Nimr/03.jpg";
-import Card4 from "../Media/Images/Gallery/Nimr/04.jpg";
 import Card5 from "../Media/Images/Gallery/Nimr/05.jpg";
 import Card6 from "../Media/Images/Gallery/Nimr/06.jpg";
 import Card7 from "../Media/Images/Gallery/Nimr/07.jpg";
@@ -29,14 +28,12 @@ function GalleryNimr() {
   };
   return (
     <div className="swiper-main">
-      <div className="selection-carousel-gallery-head">
-        <h1>Gallery</h1>
-      </div>
+    
 
       <Swiper
         effect={"creative"}
         autoplay={{
-          delay: 1000,
+          delay: 4000,
           pauseOnMouseEnter: true,
         }}
         navigation={{
@@ -44,7 +41,7 @@ function GalleryNimr() {
           prevEl: ".Back-slide",
         }}
         initialSlide={1}
-        speed={1000}
+        speed={1500}
         centeredSlides={true}
         creativeEffect={{
           prev: {
@@ -67,9 +64,7 @@ function GalleryNimr() {
         <SwiperSlide>
           <img src={Card3}></img>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={Card4}></img>
-        </SwiperSlide>
+        
         <SwiperSlide>
           <img src={Card5}></img>
         </SwiperSlide>

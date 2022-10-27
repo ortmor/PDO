@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import Video from "../Media/Images/Gallery/Amin/aminvideo.mp4";
 import Card1 from "../Media/Images/Gallery/Amin/01.jpg";
-import Card2 from"../Media/Images/Gallery/Amin/02.jpg";
+import Card2 from "../Media/Images/Gallery/Amin/02.jpg";
 import Card3 from "../Media/Images/Gallery/Amin/03.jpg";
 import Card4 from "../Media/Images/Gallery/Amin/04.jpg";
 import Card5 from "../Media/Images/Gallery/Amin/05.jpg";
@@ -31,14 +31,10 @@ function GalleryAmin() {
   };
   return (
     <div className="swiper-main">
-      <div className="selection-carousel-gallery-head">
-        <h1>Gallery</h1>
-      </div>
-
       <Swiper
         effect={"creative"}
         autoplay={{
-          delay: 1000,
+          delay: 4000,
           pauseOnMouseEnter: true,
         }}
         navigation={{
@@ -46,7 +42,7 @@ function GalleryAmin() {
           prevEl: ".Back-slide",
         }}
         initialSlide={1}
-        speed={1000}
+        speed={1500}
         centeredSlides={true}
         creativeEffect={{
           prev: {

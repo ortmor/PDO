@@ -28,14 +28,12 @@ function GalleryNoor() {
   };
   return (
     <div className="swiper-main">
-      <div className="selection-carousel-gallery-head">
-        <h1>Gallery</h1>
-      </div>
+      
 
       <Swiper
         effect={"creative"}
         autoplay={{
-          delay: 1000,
+          delay: 4000,
           pauseOnMouseEnter: true,
         }}
         navigation={{
@@ -43,7 +41,7 @@ function GalleryNoor() {
           prevEl: ".Back-slide",
         }}
         initialSlide={1}
-        speed={1000}
+        speed={1500}
         centeredSlides={true}
         creativeEffect={{
           prev: {

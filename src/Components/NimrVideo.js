@@ -1,6 +1,6 @@
 import React from "react";
 
-function NimrVideo({ Videosrc }) {
+function NimrVideo({ Videosrc, Poster }) {
   return (
     <div>
       <div>
@@ -11,6 +11,7 @@ function NimrVideo({ Videosrc }) {
           loop
           playsInline
           controls={true}
+          poster={Poster}
         />
       </div>
     </div>

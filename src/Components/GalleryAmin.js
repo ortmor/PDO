@@ -1,5 +1,7 @@
 import React from "react";
 import Video from "../Media/Images/Gallery/Amin/aminvideo.mp4";
+import Poster from "../Media/Images/Gallery/Amin/amincover.png";
+
 import Card2 from "../Media/Images/Gallery/Amin/02.jpg";
 import Card3 from "../Media/Images/Gallery/Amin/03.jpg";
 import Card4 from "../Media/Images/Gallery/Amin/04.jpg";
@@ -51,7 +53,7 @@ function GalleryAmin() {
           <img src={Card2}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <AminVideo Videosrc={Video} />
+          <AminVideo Videosrc={Video} Poster={Poster} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Card3}></img>

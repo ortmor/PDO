@@ -1,5 +1,5 @@
 import React from "react";
-function AminVideo({ Videosrc }) {
+function AminVideo({ Videosrc,Poster }) {
   return (
     <div>
       <div>
@@ -10,6 +10,7 @@ function AminVideo({ Videosrc }) {
           loop
           playsInline
           controls={true}
+          poster={Poster}
         />
       </div>
     </div>

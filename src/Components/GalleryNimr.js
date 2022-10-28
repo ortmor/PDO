@@ -1,5 +1,7 @@
 import React  from "react";
 import Video from "../Media/Images/Gallery/Nimr/nimrvideo.mp4";
+import Poster from "../Media/Images/Gallery/Nimr/nimrcover.png";
+
 import Card1 from "../Media/Images/Gallery/Nimr/01.jpg";
 import Card2 from"../Media/Images/Gallery/Nimr/02.jpg";
 import Card3 from "../Media/Images/Gallery/Nimr/03.jpg";
@@ -48,7 +50,7 @@ function GalleryNimr() {
           <img src={Card1}></img>
         </SwiperSlide>
         <SwiperSlide>
-          <NimrVideo Videosrc={Video} />
+          <NimrVideo Videosrc={Video} Poster={Poster} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Card2}></img>
